@@ -3,13 +3,20 @@ class NodoLista:
         self.dado = dado
         self.proximo = proximo_nodo
         
-class ListaEncadeada: 
+class ListaEncadeada:
     """Esta classe representa uma lista encadeada."""
+
     def __init__(self):
         self.cabeca = None
-        
+
     def __repr__(self):
-        return "[" + str(self.cabeca) + "]" 
+        nodos = []
+        atual = self.cabeca
+        while atual:
+            nodos.append(str(atual.dado))
+            atual = atual.proximo
+        return "[" + " -> ".join(nodos) + "]"
+
     
 def insereNoInicio(lista, novo_dado):
     # 1) Cria um novo nodo com dado a ser armazenado.
