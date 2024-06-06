@@ -1,6 +1,4 @@
 import time
-
-# Classes SinglyLinkedList e DoublyLinkedList definidas anteriormente
 class SimpleNode:
     def __init__(self, data):
         self.data = data
