@@ -38,8 +38,8 @@ class Stack:
 # Testando o código conforme as instruções
 stack = Stack()
 
-print("Pop:", stack.pop())  # Pop quando a pilha está vazia
-print("IsEmpty:", stack.is_empty())  # Verifica se a pilha está vazia
+print("Pilha:", stack.pop())  # Pop quando a pilha está vazia
+print("Verificar a pilha:", stack.is_empty())  # Verifica se a pilha está vazia
 
 stack.push(1)
 stack.push(2)
@@ -47,12 +47,12 @@ stack.push(3)
 stack.push(4)
 stack.push(5)
 
-print("Display after pushes:", stack.display())  # Mostra todos os elementos da pilha
+print("Elementos são:", stack.display())  # Mostra todos os elementos da pilha
 
-print("Pop:", stack.pop())  # Desempilha um elemento
+print("Pilha:", stack.pop())  # Desempilha um elemento
 
-print("Top:", stack.peek())  # Mostra o elemento do topo da pilha
+print("Elemento alto:", stack.peek())  # Mostra o elemento do topo da pilha
 
-print("Pop:", stack.pop())  # Desempilha um elemento
+print("Pilha:", stack.pop())  # Desempilha um elemento
 
-print("Display after pops:", stack.display())  # Mostra todos os elementos da pilha
+print("Elemesntos são:", stack.display())  # Mostra todos os elementos da pilha
