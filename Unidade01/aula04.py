@@ -21,3 +21,13 @@ def Metodo(Lista):
        return  True
     else:
        return False
+   
+# DESAFIO
+def TotalProdutoRefrigerado(self):
+        total = 0
+        atual = self.cabeca
+        while atual:
+            if atual.refrigerado:
+                total += 1
+            atual = atual.proximo
+        return total
