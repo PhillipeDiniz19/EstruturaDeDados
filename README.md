@@ -1,1 +1,1 @@
-# Repositorio criado para colocar todos os desafios/estudos da materia Estrutura de dados
+# Repositorio criado para colocar todos os desafios/estudos da matéria Estrutura de dados
