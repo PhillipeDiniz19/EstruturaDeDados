@@ -36,4 +36,4 @@ test_lists = [
 for test_list in test_lists:
     print(f"Original: {test_list}")
     sorted_list = quick_sort(test_list.copy())
-    print(f"Sorted:   {sorted_list}\n")
+    print(f"Sorteio:   {sorted_list}\n")
