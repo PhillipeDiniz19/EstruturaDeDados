@@ -1,5 +1,4 @@
 def ordena_alunos_por_notas(ordem_chegada, notas):
-    # Combina a ordem de chegada com as notas em uma lista de tuplas
     alunos = list(zip(ordem_chegada, notas))
     
     trocas = 0
